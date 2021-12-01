@@ -1,53 +1,53 @@
-.body {
-  margin: 0;
+
+.body{
   font-family: $ff;
-  font-size: 24px;
-  line-height: 33px;
+  margin: 34px 127px 0 142px;
+  color: $ct;
+
 }
-.page {
-  margin: 75px 80px 0 117px;
+.banner{
+  font-family: $ff;
   display: flex;
   flex-direction: column;
 }
-.page-font {
+.banner-head {
   display: flex;
   flex-direction: row;
-  justify-content: start;
-}
-.page-colors {
-  display: flex;
-  flex-direction: column;
-}
-.asset {
-  margin: 0;
-  font-size: 64px;
-  font-weight: bold;
-  line-height: 87px;
-  text-decoration: underline;
-}
-.asset-name {
-  margin: 0;
-  font-weight: bold;
-  font-size: 36px;
-  padding: 19px 49px 0 104px;
-}
-.asset-example {
-  margin: 0;
-  padding-top: 12px;
-}
-.text-bold {
-  font-weight: bold;
-}
-.page-colors {
-  display: flex;
-  flex-direction: column;
-}
-.colors-set {
-  display: grid;
   justify-content: space-between;
 }
-.colors-block {
-  width: 200px;
-  height: 200px;
-  background-color: #2B2B2B;
+.banner-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #C4C4C4;
+}
+.banner-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link {
+  text-decoration: none;
+  color: $ct;
+}
+.banner-btn {
+  background-color: #423F3E;
+  color: $ct-2;
+  border-radius: 5px;
+  width: 161px;
+  font-size: 18px;
+
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-h2 {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+}
+.content-main {
+  text-align: center;
+  font-size: 24px;
 }
