@@ -1,10 +1,53 @@
-@font-face {
-  font-family: Rubik;
-  src: url("/assets/fonts/Rubik-Regular.ttf");
-  font-style: normal;
-  font-weight: normal;
-}
 .body {
   margin: 0;
-
+  font-family: $ff;
+  font-size: 24px;
+  line-height: 33px;
+}
+.page {
+  margin: 75px 80px 0 117px;
+  display: flex;
+  flex-direction: column;
+}
+.page-font {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.page-colors {
+  display: flex;
+  flex-direction: column;
+}
+.asset {
+  margin: 0;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 87px;
+  text-decoration: underline;
+}
+.asset-name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 19px 49px 0 104px;
+}
+.asset-example {
+  margin: 0;
+  padding-top: 12px;
+}
+.text-bold {
+  font-weight: bold;
+}
+.page-colors {
+  display: flex;
+  flex-direction: column;
+}
+.colors-set {
+  display: grid;
+  justify-content: space-between;
+}
+.colors-block {
+  width: 200px;
+  height: 200px;
+  background-color: #2B2B2B;
 }
