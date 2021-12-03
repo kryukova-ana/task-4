@@ -3,7 +3,6 @@
   font-family: $ff;
   margin: 34px 127px 0 142px;
   color: $ct;
-
 }
 .banner{
   font-family: $ff;
@@ -41,13 +40,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 229px 0 331px 0;
 }
 .content-h2 {
   font-size: 64px;
   font-weight: bold;
   text-align: center;
+  margin: 0;
+  padding-bottom: 31px;
 }
 .content-main {
   text-align: center;
   font-size: 24px;
+  margin: 0;
+}
+.block{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
