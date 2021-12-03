@@ -22,12 +22,12 @@
 }
 .banner-nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 .nav-link {
   text-decoration: none;
   color: $ct;
+  padding: 23px 20px 0 0;
 }
 .banner-btn {
   background-color: #423F3E;
