@@ -157,16 +157,28 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 81px 120px 0 120px;
+  padding: 81px 25px 0 120px;
 }
 .card-text {
   max-width: 438px;
   box-shadow: 0px 0px 40px rgba(57, 40, 166, 0.15);
   border-radius: 5px;
   padding: 60px 14px 28px 60px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-right: 95px;
 }
 .card-text-main {
-
+  font-size: 18px;
+  line-height: 28px;
+}
+.card-text-bold {
+  font-weight: bold;
+  line-height: 28px;
+}
+.card-text-size {
+  font-size: 16px;
+  line-height: 0px;
 
 }
 .footer {
@@ -174,4 +186,18 @@
   flex-direction: row;
   justify-content: space-between;
   padding-top: 97px;
+}
+.contact {
+  text-align: left;
+  font-size: 14px;
+  line-height: 21px;
+}
+.contact-head {
+  font-weight: bold;
+  text-align: center;
+}
+.contact-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
