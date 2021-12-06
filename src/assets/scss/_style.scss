@@ -1,13 +1,16 @@
 
 .body{
   font-family: $ff;
-  margin: 34px 127px 0 142px;
+  margin: 34px 118px 0 120px;
   color: $ct;
+  background-color: #E5E5E5;
+
 }
 .banner{
   font-family: $ff;
   display: flex;
   flex-direction: column;
+  margin: 0 9px 0 22px;
 }
 .banner-head {
   display: flex;
@@ -58,9 +61,117 @@
   display: flex;
   flex-direction: row;
 }
+.block-text {
+  text-align: left;
+  padding: 94px 68px 0 0;
+}
+.block-head{
+  font-size: 53px;
+  font-weight: bold;
 
+}
+.block-items {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+}
+.items {
+  padding-right: 54px;
+
+}
+.items-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+.items-link {
+  padding-top: 20px;
+}
+.link-dec {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: $ct;
+  padding-right: 10px;
+}
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 120px 40px 0 0;
+}
+.servace-head {
+  display: flex;
+  flex-direction: column;
+  max-width: 508px;
+}
+.servace-head-header {
+  padding-top: 30px;
+  font-size: 39px;
+  font-weight: bold;
+}
+.servace-head-main {
+  font-size: 18px;
+  line-height: 28px;
+}
+.service-flex{
+  display: flex;
+  flex-direction: row;
+}
+.service-flex-padding {
+  padding-right: 70px;
+
+}
+.service-flex p {
+  font-size: 31px;
+  line-height: 42px;
+  font-weight: bold;
+}
+.showcase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 165px;
+}
+.showcase-text {
+  max-width: 272px;
+}
+.showcase-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.showcase-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+.section {
+  padding-top: 81px;
+  display: flex;
+  flex-direction: column;
+}
+.section-head {
+  font-size: 53px;
+  font-weight: bold;
+  text-align: center;
+}
+.section-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 81px 120px 0 120px;
+}
+.card-text {
+  max-width: 438px;
+  box-shadow: 0px 0px 40px rgba(57, 40, 166, 0.15);
+  border-radius: 5px;
+  padding: 60px 14px 28px 60px;
+}
+.card-text-main {
+
+
+}
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 97px;
 }
