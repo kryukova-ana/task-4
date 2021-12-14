@@ -158,7 +158,7 @@ function img ( done ) {
 		.pipe( browserSync.stream() );
 
 	gulp.src( path.src.img )
-		.pipe( plumber() )
+		/*.pipe( plumber() )
 		.pipe( cache( imagemin( [
 			imagemin.gifsicle( { interlaced: true } ),
 			imagemin.jpegtran( { progressive: true } ),
@@ -178,7 +178,7 @@ function img ( done ) {
 			} )
 		], /*{
 			verbose: true
-		}*/ ) ) )
+		} ) ) )*/
         .pipe( gulp.dest( path.build.img ) );
 	
 	done();
