@@ -29,7 +29,7 @@
 }
 .nav-link {
   text-decoration: none;
-  color: #EBEBEB;
+  color: #EBEBEB!important;
   padding: 23px 20px 0 0;
 }
 .banner-btn {
@@ -44,7 +44,6 @@
 .theme-img {
   width: 20px;
   height: 20px;
-  padding-left: 10px;
 }
 .banner-btn:active {
   outline: none;
@@ -264,7 +263,7 @@
   background-size: cover;
   display: inline-block;
   width: 90px;
-  height: 116px;
+  height: 126px;
 }
 .in-light{
   background-image: url("/assets/img/in-light.svg");
