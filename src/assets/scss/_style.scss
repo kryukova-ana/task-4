@@ -2,7 +2,7 @@
   font-family: $ff;
   margin: 0 auto;
   color: $ct;
-  background-color: #E5E5E5;
+  background-color: $bc;
   width: $ws;
   padding-left: 130px;
   padding-right: 130px;
@@ -10,7 +10,7 @@
 .header-icon {
   width: 80px;
   height: 80px;
-  background-color: #C4C4C4;
+  background-color: $bc-i;
 }
 .nav-link {
   text-decoration: none;
@@ -20,7 +20,7 @@
   padding: 20px 90px 0 85px!important;
 }
 .header-btn {
-  background-color: #423F3E;
+  background-color: $bc-b
   color: $ct-2;
   border-radius: 5px;
   width: 161px;
