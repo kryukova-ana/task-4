@@ -16,7 +16,7 @@
   justify-content: space-between;
 
 }
-.banner-icon {
+.header-icon {
   width: 80px;
   height: 80px;
   background-color: #C4C4C4;
@@ -32,7 +32,7 @@
   color: #EBEBEB!important;
   padding: 23px 20px 0 0;
 }
-.banner-btn {
+.header-btn {
   background-color: #423F3E;
   color: $ct-2;
   border-radius: 5px;
@@ -45,7 +45,7 @@
   width: 20px;
   height: 20px;
 }
-.banner-btn:active {
+.header-btn:active {
   outline: none;
 }
 .banner-btn-padding{
