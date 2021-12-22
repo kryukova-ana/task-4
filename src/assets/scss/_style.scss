@@ -41,7 +41,6 @@
 .theme-img-pad {
   padding: 25px 0 0 20px!important;
 }
-
 .banner-content {
   display: flex;
   flex-direction: column;
@@ -66,15 +65,12 @@
 
 }
 .block{
-  display: flex;
-  flex-direction: row;
   padding-top: 50px;
   padding-left: 3px;
-  justify-content: space-between;
 }
 .block-text {
   text-align: left;
-  padding: 94px 30px 0 8px;
+  padding: 104px 30px 0 8px;
 }
 .block-head{
   font-size: 53px;
@@ -82,8 +78,6 @@
   line-height: 63px;
 }
 .block-items {
-  display: flex;
-  flex-direction: row;
   padding-top: 60px;
 }
 .items {
@@ -104,36 +98,29 @@
   color: $ct;
   padding-right: 10px;
 }
-.service {
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 80px 10px 0 8px;
+.block-img-padding {
+  padding-left: 55px!important;
 }
-.servace-head {
-  display: flex;
-  flex-direction: column;
-  max-width: 508px;
+.service {
+  padding-top: 120px;
 }
 .servace-head-header {
-  padding-top: 18px;
+  padding-top: 28px;
   font-size: 39px;
   font-weight: bold;
 }
 .servace-head-main {
   font-size: 18px;
   line-height: 28px;
-  margin-top: -22px;
 }
 .service-flex{
-  display: grid;
-  grid-template-columns: 220px  200px;
-  grid-auto-rows: 58px;
-  justify-content: space-between;
-  margin-bottom: 80px;
-  column-gap:  70px;
-  margin-right: -50px;
+  //display: grid;
+  //grid-template-columns: 220px  200px;
+  //grid-auto-rows: 58px;
+  //justify-content: space-between;
+  //margin-bottom: 80px;
+  //column-gap:  70px;
+  //margin-right: -50px;
 }
 .service-flex p {
   font-size: 31px;
